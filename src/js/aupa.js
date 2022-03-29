@@ -6,7 +6,7 @@
 	var a = document.createElement('a');
 	a.setAttribute('href','https://github.com/aupax');
 	a.setAttribute('target','_blank');
-  a.setAttribute('oncontextmenu','return false')
+        a.setAttribute('oncontextmenu','return false')
 	a.innerHTML = icon;
     
  	document.body.appendChild(a);
